@@ -4,7 +4,7 @@ import logging
 import webbrowser
 import csv 
 
-from .word import not_used
+import word 
 
 pos = {'verb','noun','adjective','adverb'}
 
@@ -19,7 +19,7 @@ options.add_experimental_option("prefs", prefs)
 DRIVER_PATH = 'C:\Program Files\Google\Chrome\Application\chromedriver'
 driver = webdriver.Chrome(options=options,executable_path=DRIVER_PATH)
 
-words = not_used()
+words = word.not_used()
 
 with open('answer.csv', 'w', encoding='utf-8')as f:
     writer = csv.writer(f)
