@@ -4,7 +4,7 @@ import logging
 import webbrowser
 import csv 
 
-from .words import not_used
+from .word import not_used
 
 pos = {'verb','noun','adjective','adverb'}
 
