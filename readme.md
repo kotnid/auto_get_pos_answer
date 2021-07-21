@@ -8,6 +8,12 @@
 ## How to use ##
 - Install chromedriver via [website](https://chromedriver.chromium.org/downloads) and put it to your chrome file(C:\Program Files\Google\Chrome\Application) 
 - Save the docx file as 'POS.docx'
+- Install all the package needed
+
+```
+pip install -r requirements.txt 
+```
+
 - Run main.py
 
 ```
