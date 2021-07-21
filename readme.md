@@ -21,4 +21,4 @@ python main.py
 - Eng teachers (Providing this worksheet)
 
 
-readme make by tkt0506 <img src="https://i.imgur.com/LpuXFdq.jpg" width="5%">
+readme make by kotnid <img src="https://i.imgur.com/LpuXFdq.jpg" width="5%">
